@@ -9,8 +9,8 @@ You need to have already configured the `Stratos UI`. For more information check
 ## Quick Start
 
 To set this up
-1. copy the project orange-branding in the folder stratos-ui/components/
-2. Go to stratos-ui/bower.json and replace the line `"suse-branding": "./components/suse-branding"` into `"orange-branding": "./components/orange-branding"`
+1.Clone the project in a folder named orange-branding by running the following command:`$ git clone https://github.com/orange-cloudfoundry/orange-component-CF-UI.git orange-branding`
+2.Move the folder `orange-branding` in the folder `stratos-ui/components/`
+3.Open the file `stratos-ui/bower.json` and replace the line `"suse-branding": "./components/suse-branding"` into `"orange-branding": "./components/orange-branding"`
 
 Once this is done your project is ready for deployement.
-
